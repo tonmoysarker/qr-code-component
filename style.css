@@ -18,36 +18,36 @@ body {
   height: 100vh;
 }
 
-main{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .qr-card {
   width: 20rem;
   padding: 1rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 20px;
 }
 
 .qr-card__img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
-.qr-card__info{
-    margin-top: 1.5rem;
-    padding: 0 1rem;
-    text-align: center;
+.qr-card__info {
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .qr-card__info .title {
   font-size: 1.375rem;
   line-height: 1.2;
-  color: #1F314F;
+  color: #1f314f;
   margin-bottom: 1rem;
 }
 
@@ -55,5 +55,13 @@ main{
   font-size: 0.938rem;
   line-height: 1.4;
   letter-spacing: 0.2px;
-  color: #68778D;
+  color: #68778d;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
